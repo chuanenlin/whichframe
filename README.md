@@ -1,19 +1,8 @@
----
-title: Which Frame?
-emoji: 🔍
-colorFrom: purple
-colorTo: purple
-sdk: streamlit
-app_file: whichframe.py
----
-
 # Which Frame?
 
 🧠 Search a video **semantically** with OpenAI's CLIP neural network.
-
 ❓ Example: Which frame has a person with sunglasses and earphones?
-
-🔍 Try searching with text, image, or text + image.
+🔍 Search with text, image, or text + image.
 
 ---
 
@@ -48,7 +37,7 @@ streamlit run whichframe.py
 
 ## Examples
 
-### 1. Text Search
+### 🔤 Text Search
 
 #### Query
 
@@ -56,26 +45,26 @@ streamlit run whichframe.py
 
 #### Result
 
-![three-red-cars-side-by-side](examples/three-red-cars-side-by-side.jpeg)
+![three-red-cars-side-by-side](/Users/david/Home/CMU/Notes/images/three-red-cars-side-by-side-6159437.jpeg)
 
-### 2. Image Search
+### 🌅 Image Search
 
 #### Query
 
-![police-car-query](examples/helicopter-query.jpeg)
+![police-car-query](/Users/david/Home/CMU/Notes/images/helicopter-query.jpeg)
 
 #### Result
 
-![police-car-result](examples/helicopter-result.jpeg)
+![police-car-result](/Users/david/Home/CMU/Notes/images/helicopter-result.jpeg)
 
-### 3. Text + Image Search
+### 🔤 Text + 🌅 Image Search
 
 #### Query
 
 "a red subaru" +
 
-![police-car-query](examples/police-car-query.jpeg)
+![police-car-query](/Users/david/Home/CMU/Notes/images/police-car-query-6159437.jpeg)
 
 #### Result
 
-![subaru-and-police-car-result](examples/subaru-and-police-car-result.jpeg)
+![subaru-and-police-car-result](/Users/david/Home/CMU/Notes/images/subaru-and-police-car-result-6159437.jpeg)

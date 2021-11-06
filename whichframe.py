@@ -19,9 +19,6 @@ def fetch_video(url):
   yt = YouTube(url)
   streams = yt.streams.filter(adaptive=True, subtype="mp4", resolution="360p", only_video=True)
   length = yt.length
-  if length >= 300:
-    st.error("Please find a YouTube video shorter than 5 minutes. Sorry about this, the server capacity is limited for the time being.")
-    st.stop()
   video = streams[0]
   return video, video.url
 
@@ -39,8 +36,6 @@ def extract_frames(video):
       break
     current_frame += N
     capture.set(cv2.CAP_PROP_POS_FRAMES, current_frame)
-  # print(f"Frames extracted: {len(frames)}")
-
   return frames, fps
 
 @st.cache()
@@ -55,7 +50,6 @@ def encode_frames(video_frames):
       batch_features = model.encode_image(batch_preprocessed)
       batch_features /= batch_features.norm(dim=-1, keepdim=True)
     video_features = torch.cat((video_features, batch_features))
-  # print(f"Features: {video_features.shape}")
   return video_features
 
 def img_to_bytes(img):
@@ -72,7 +66,6 @@ def display_results(best_photo_idx):
     st.image(result)
     seconds = round(frame_id.cpu().numpy()[0] * N / ss.fps)
     result_arr.append(seconds)
-    # time = datetime.timedelta(seconds=seconds)
     time = format_timespan(seconds)
     if ss.input == "file":
       st.write("Seen at " + str(time) + " into the video.")
