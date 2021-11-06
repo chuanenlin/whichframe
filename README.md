@@ -1,8 +1,6 @@
 # Which Frame?
 
-🧠 Search a video **semantically** with OpenAI's CLIP neural network.
-❓ Example: Which frame has a person with sunglasses and earphones?
-🔍 Search with text, image, or text + image.
+Search a video **semantically** with AI. For example, try a natural language search query like "a person with sunglasses". You can also search with images like Google's reverse image search and also a combined text + image. The underlying querying is powered by OpenAI’s CLIP neural network for "zero-shot" image classification.
 
 ---
 
