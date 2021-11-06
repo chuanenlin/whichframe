@@ -43,17 +43,17 @@ streamlit run whichframe.py
 
 #### Result
 
-![three-red-cars-side-by-side](/Users/david/Home/CMU/Notes/images/three-red-cars-side-by-side-6159437.jpeg)
+![three-red-cars-side-by-side](examples/three-red-cars-side-by-side.jpeg)
 
 ### 🌅 Image Search
 
 #### Query
 
-![police-car-query](/Users/david/Home/CMU/Notes/images/helicopter-query.jpeg)
+![police-car-query](examples/helicopter-query.jpeg)
 
 #### Result
 
-![police-car-result](/Users/david/Home/CMU/Notes/images/helicopter-result.jpeg)
+![police-car-result](examples/helicopter-result.jpeg)
 
 ### 🔤 Text + 🌅 Image Search
 
@@ -61,8 +61,8 @@ streamlit run whichframe.py
 
 "a red subaru" +
 
-![police-car-query](/Users/david/Home/CMU/Notes/images/police-car-query-6159437.jpeg)
+![police-car-query](examples/police-car-query.jpeg)
 
 #### Result
 
-![subaru-and-police-car-result](/Users/david/Home/CMU/Notes/images/subaru-and-police-car-result-6159437.jpeg)
+![subaru-and-police-car-result](examples/subaru-and-police-car-result.jpeg)
