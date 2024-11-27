@@ -27,9 +27,9 @@ def fetch_video(url):
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             info = ydl.extract_info(url, download=False)
             duration = info.get('duration', 0)
-            if duration >= 300:  # 5 minutes
-                st.error("Please find a YouTube video shorter than 5 minutes.")
-                st.stop()
+            # if duration >= 300:  # 5 minutes
+            #     st.error("Please find a YouTube video shorter than 5 minutes.")
+            #     st.stop()
             video_url = info['url']
             return None, video_url
             
