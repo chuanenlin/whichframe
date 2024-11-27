@@ -1,9 +1,9 @@
-numpy
+streamlit>=1.1.0
 Pillow
-streamlit
-pytube
+yt-dlp
 opencv-python-headless
 torch
-torchvision
 git+https://github.com/openai/CLIP.git
 humanfriendly
+numpy
+altair<5
