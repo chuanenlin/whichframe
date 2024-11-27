@@ -1,13 +1,10 @@
 import streamlit as st
-from pytube import YouTube
-from pytube import extract
 import cv2
 from PIL import Image
 import clip as openai_clip
 import torch
 import math
 from humanfriendly import format_timespan
-from moviepy.video.io.VideoFileClip import VideoFileClip
 import numpy as np
 import time
 import os
