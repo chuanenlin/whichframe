@@ -20,7 +20,7 @@ model, preprocess = openai_clip.load("ViT-B/32", device=device)
 def fetch_video(url):
     try:
         ydl_opts = {
-            'format': 'bestvideo[height<=360][ext=mp4]',
+            'format': 'bestvideo[height<=360][ext=mp4][vcodec=avc1]/best[height<=360][ext=mp4]',
             'quiet': True,
             'no_warnings': True
         }
