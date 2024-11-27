@@ -1,12 +1,12 @@
 # Which Frame?
 
-Search a video **semantically** with AI. For example, try a natural language search query like "a person with sunglasses". You can also search with images like Google's reverse image search and also a combined text + image. The underlying querying is powered by OpenAI’s CLIP neural network for "zero-shot" image classification.
+Search a video **semantically** with AI. For example, try a natural language search query like "a person with sunglasses". You can search with text, images, or a combined text + image. The underlying querying is powered by [CLIP](https://github.com/openai/CLIP).
 
 ---
 
 ## Try it out!
 
-http://whichframe.chuanenlin.com
+https://huggingface.co/spaces/chuanenlin/which-frame
 
 ---
 
