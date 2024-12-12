@@ -1,14 +1,17 @@
-# Which Frame?
+# Which Frame
 
 Search a video **semantically** with AI. For example, try a natural language search query like "a person with sunglasses". You can search with text, images, or a combined text + image. The underlying querying is powered by [CLIP](https://github.com/openai/CLIP).
 
----
+## ✨ Version 2 available! ✨
+https://github.com/chuanenlin/whichframe-v2
+- Cool interface
+- Better model and similarity scores
+- Snapshot search (image search by drawing a bounding box on the video)
+- Local video
 
-## Try it out!
+## Live demo
 
 https://huggingface.co/spaces/chuanenlin/which-frame
-
----
 
 ## Setting up
 
